@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vievsport" content="with=device-width, initial-scale=1.0">
+    <title>The best gallery!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .gallery li {
+            flex: 1 1 calc(33% - 10px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+    </head>
+    <body>
+
+    <ul class="gallery"></ul>
+
+    <script src="js/task-03.js" type="module"></script>
+  </body>
+</html>
